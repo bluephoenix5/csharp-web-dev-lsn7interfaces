@@ -11,12 +11,6 @@ namespace IceCreamShop
             int xInt = (int)(x.Cost * 100);           
             int yInt = (int)(y.Cost * 100);          
             return xInt - yInt;
-
-            int xIn = xInt;
-            double xOut = Convert.ToDouble(xIn);
-
-            int yIn = yInt;
-            double yOut = Convert.ToDouble(yIn);
         }
 
     }
